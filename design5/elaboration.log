@@ -1,0 +1,35 @@
+elbread.dll ver. 1.0.5.365 Wed May 07 22:46:57 2025
+
+
+----------------------------------------------
+Entity                | Architecture | Library
+----------------------------------------------
+assembly_tb           | behavior     | design5
+assembly              | structural   | design5
+pc                    | behavioral   | design5
+mux_2_32              | behavior     | design5
+memory                | behavioral   | design5
+instructionregister   | behavioral   | design5
+register_file         | behavioral   | design5
+mux_2_5               | behavior     | design5
+sign_extend           | behavior     | design5
+shiftleft             | behavior     | design5
+shiftleft2            | behavior     | design5
+mux4                  | bahavior     | design5
+alu                   | behavior     | design5
+alu_control_unit      | behavioral   | design5
+temp_register_aluout  | behavioral   | design5
+temp_register_dmr     | behavioral   | design5
+mux3                  | bahavior     | design5
+controlunit           | behavioral   | design5
+----------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+numeric_std         | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+-----------------------------

@@ -1,0 +1,40 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+$IN 5 1 write
+$IN 9 1 read
+I 2 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 2 5 address
+$SC 13-29/4
+I 3 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 162 3 32 write_data
+$SC 34-158/4
+$BUS OUT 291 3 32 0 5 read
+$SC 163-287/4
+I 4 "a#8#mem_type1 rict0 127 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 5 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 4388 4 128 mem
+$SC 292-4384/4
+$BUS S +261 3 32 read_data_reg
+$SC 4517-+124/4
+$ENDTIME 100000
+$WAVES 1-29/4 +5-158/4 +5-287/4 4517-+124/4
+=0 T 0
+$VALUES
+V 1
+U
+$END
+$WAVES 292 +16-+8/4 +8 +72 +8-+12/4 +12 +28 +4 +20 +44 +4 +12 +16 +28 +4 +16 +48 +4 +56 +40 +28 +36 +28 +16 +68 +20 +104 +4 +44 +16 +48 +24 +16-+8/4 +8 +16 +8 +48 +8-+12/4 4288
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 296-+8/4 +16 +8-+64/4 +8 +20 +4 +8-+20/4 +12-+12/4 +8-+36/4 +12 +4 +8-+8/4 +8-+20/4 +12-+8/4 +8-+40/4 +12-+48/4 +8-+32/4 +8-+20/4 +8-+28/4 +8-+20/4 +8-+8/4 +8-+60/4 +8-+12/4 +8-+96/4 +12-+36/4 +8-+8/4 +8-+40/4 +8-+16/4 +8-+8/4 +16 +8-+8/4 +8 +8-+40/4 +8 +20-4284/4 +8-+92/4
+*0
+$VALUES
+V 1
+0
+$END
+$ENDWAVE

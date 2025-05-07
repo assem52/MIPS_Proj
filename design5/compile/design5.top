@@ -1,0 +1,16 @@
+mux4 ENTITY
+shiftLeft ENTITY
+sign_extend ENTITY
+temp_register_ALUout ENTITY
+temp_register_DMR ENTITY
+temp_register_AB ENTITY
+shiftLeft2 ENTITY
+register_file_TB ENTITY
+PC_TB ENTITY
+mux_2_32 ENTITY
+mux_2_5 ENTITY
+mux3 ENTITY
+ControlUnit_tb ENTITY
+memory_tb ENTITY
+ALU_Control_Unit ENTITY
+ALU ENTITY

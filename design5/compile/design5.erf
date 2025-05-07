@@ -1,0 +1,5 @@
+MESSAGE "File: C:\My_Designs\design5\design5\src\Assembly.vhd" 
+MESSAGE "Compile Entity "Assembly"" 
+MESSAGE "Entity `Assembly' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "Structural" of Entity "Assembly"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

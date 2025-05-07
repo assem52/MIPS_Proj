@@ -1,0 +1,85 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=design5
+
+[Library]
+design5=.\design5.lib
+
+[$LibMap$]
+design5=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+HESPrepare=0
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=assembly_tb|behavior|0 memory|behavioral|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/shiftleft.vhd=-1
+/mux_4in_32bit.vhd=-1
+/sign_extend.vhd=-1
+/temp_register_ab.vhd=-1
+/shiftleft2.vhd=-1
+/register_file.vhd=-1
+/mux_2in_5bit.vhd=-1
+/memory_tb.vhd=-1
+/temp_register_dmr.vhd=-1
+/register_file_tb.vhd=-1
+/pc.vhd=-1
+/mux_2in_32bit.vhd=-1
+/alu.vhd=-1
+/temp_register_aluout.vhd=-1
+/alu_control_unit.vhd=-1
+/mux_3in_32bit.vhd=-1
+/controlunit.vhd=-1
+/controlunit_tb.vhd=-1
+/pc_tb.vhd=-1
+/memory.vhd=-1
+/Assembly.vhd=-1
+/InstructionRegister.vhd=-1
+/assembly_TB.vhd=-1
+
+[Files.Data]
+.\src\shiftleft.vhd=VHDL Source Code
+.\src\mux_4in_32bit.vhd=VHDL Source Code
+.\src\sign_extend.vhd=VHDL Source Code
+.\src\temp_register_ab.vhd=VHDL Source Code
+.\src\shiftleft2.vhd=VHDL Source Code
+.\src\register_file.vhd=VHDL Source Code
+.\src\mux_2in_5bit.vhd=VHDL Source Code
+.\src\memory_tb.vhd=VHDL Source Code
+.\src\temp_register_dmr.vhd=VHDL Source Code
+.\src\register_file_tb.vhd=VHDL Source Code
+.\src\pc.vhd=VHDL Source Code
+.\src\mux_2in_32bit.vhd=VHDL Source Code
+.\src\alu.vhd=VHDL Source Code
+.\src\temp_register_aluout.vhd=VHDL Source Code
+.\src\alu_control_unit.vhd=VHDL Source Code
+.\src\mux_3in_32bit.vhd=VHDL Source Code
+.\src\controlunit.vhd=VHDL Source Code
+.\src\controlunit_tb.vhd=VHDL Source Code
+.\src\pc_tb.vhd=VHDL Source Code
+.\src\memory.vhd=VHDL Source Code
+.\src\Assembly.vhd=VHDL Source Code
+.\src\InstructionRegister.vhd=VHDL Source Code
+.\src\assembly_TB.vhd=VHDL Source Code
+
