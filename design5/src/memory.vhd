@@ -14,7 +14,7 @@ entity memory is
 end memory;
 
 architecture behavioral of memory is
-  type mem_type is array (0 to 127) of std_logic_vector(7 downto 0); -- 128 bytes (32 words)
+  type mem_type is array (0 to 127) of std_logic_vector(7 downto 0); -- 128 bytes (32 words)   >> word = 4 bytes
   signal mem : mem_type := (
     -- Preloaded instructions (word-aligned, little-endian)
     -- lw $R0,47($R20)

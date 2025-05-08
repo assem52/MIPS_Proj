@@ -1,0 +1,79 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$S 1 1 CLK
+$S 5 1 Reset
+$S 5 0 5 0 ""
+$S 1 0 CLK
+$S 5 0 Reset
+$S 1 0 CLK
+$IN 1 0 "uut/CLK"
+$IN 5 0 "uut/Reset"
+I 2 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 137 2 32 4 1 PC_ou
+$SC 9-133/4
+$BUS S 266 2 32 7 0 in
+$SC 138-262/4
+$BUS S 395 2 32 "uut/Mem_addr"
+$SC 267-391/4
+$BUS S 524 2 32 8 0 data
+$SC 396-520/4
+$BUS S 653 2 32 "uut/IR_out"
+$SC 525-649/4
+$BUS S 782 2 32 "uut/Reg_A"
+$SC 654-778/4
+$BUS S 911 2 32 8 0 B
+$SC 783-907/4
+$BUS S +133 2 32 "uut/ALU_A"
+$SC 912-+124/4
+$BUS S +133 2 32 8 0 B
+$SC 1041-+124/4
+$BUS S +133 2 32 8 0 result
+$SC 1170-+124/4
+$BUS S +133 2 32 8 1 ou
+$SC 1299-+124/4
+$BUS S +133 2 32 "uut/Mem_data_reg"
+$SC 1428-+124/4
+$BUS S +133 2 32 "uut/Write_data"
+$SC 1557-+124/4
+I 3 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +25 3 5 10 0 reg_addr
+$SC +-20-+16/4
+$BUS S +133 2 32 "uut/Sign_ext_out"
+$SC 1707-+124/4
+$BUS S +133 2 32 5 5 hift_lef
+$SC 1836-+124/4
+$BUS S +133 2 32 "uut/Jump_addr_full"
+$SC 1965-+124/4
+I 4 "a#29#std_logic_vector(27 downto 0)1 ricd27 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +117 4 28 13 0 ""
+$SC 2094-+108/4
+I 5 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +21 5 4 "uut/ALU_control"
+$SC +-16-+12/4
+$S +5 1 "uut/PCWriteCond"
+$S +4 1 11 0 ""
+$S +4 1 "uut/IorD"
+$S +4 1 "uut/MemRead"
+$S +4 1 7 0 Write
+$S +4 1 7 0 ToReg
+$S +4 1 "uut/IRWrite"
+$S +4 1 "uut/ALUSrcA"
+$S +4 1 "uut/RegWrite"
+$S +4 1 7 0 Dst
+$S +4 1 "uut/Zero"
+I 6 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +12 6 2 "uut/PCSource"
+$SC +-8 +4
+$BUS S +13 6 2 "uut/ALUOp"
+$SC +-8 +4
+$BUS S +13 6 2 7 0 SrcB
+$SC +-8 +4
+$S +5 1 "uut/PC_load"
+$S +4 1 "uut/IR_en"
+$S +4 1 4 3 A_B
+$S +4 1 5 3 LUout
+$S +4 1 4 3 DMR
+$BUS S +132 2 32 4 1 Instructio
+$SC 2315-+124/4
+$ENDWAVE

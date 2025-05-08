@@ -1,9 +1,1094 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
+SetActiveLib -work
+comp -include "$DSN\src\controlunit.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\controlunit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$DSN\src\mux_3in_32bit.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\mux_3in_32bit.vhd
+# Compile Entity "mux3"
+# Entity `mux3' has been skipped - no difference detected.
+# Compile Architecture "bahavior" of Entity "mux3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\mux_2in_32bit.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\mux_2in_32bit.vhd
+# Compile Entity "mux_2_32"
+# Entity `mux_2_32' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "mux_2_32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\temp_register_dmr.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\temp_register_dmr.vhd
+# Compile Entity "temp_register_DMR"
+# Entity `temp_register_DMR' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "temp_register_DMR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\temp_register_aluout.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\temp_register_aluout.vhd
+# Compile Entity "temp_register_ALUout"
+# Entity `temp_register_ALUout' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "temp_register_ALUout"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\alu_control_unit.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\alu_control_unit.vhd
+# Compile Entity "ALU_Control_Unit"
+# Entity `ALU_Control_Unit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU_Control_Unit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\alu.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\alu.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\mux_4in_32bit.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\mux_4in_32bit.vhd
+# Compile Entity "mux4"
+# Entity `mux4' has been skipped - no difference detected.
+# Compile Architecture "bahavior" of Entity "mux4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\shiftleft2.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\shiftleft2.vhd
+# Compile Entity "shiftLeft2"
+# Entity `shiftLeft2' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "shiftLeft2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\shiftleft.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\shiftleft.vhd
+# Compile Entity "shiftLeft"
+# Entity `shiftLeft' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "shiftLeft"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\sign_extend.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\sign_extend.vhd
+# Compile Entity "sign_extend"
+# Entity `sign_extend' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "sign_extend"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\mux_2in_5bit.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\mux_2in_5bit.vhd
+# Compile Entity "mux_2_5"
+# Entity `mux_2_5' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "mux_2_5"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\register_file.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\register_file.vhd
+# Compile Entity "register_file"
+# Entity `register_file' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "register_file"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\InstructionRegister.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\InstructionRegister.vhd
+# Compile Entity "InstructionRegister"
+# Entity `InstructionRegister' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionRegister"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\memory.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\memory.vhd
+# Compile Entity "memory"
+# Entity `memory' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\pc.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\pc.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\Assembly.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+comp -include "$DSN\src\TestBench\assembly_TB3.vhd" 
+# Compile...
+# File: C:\My_Designs\design5\design5\src\TestBench\assembly_TB3.vhd
+# Compile Entity "assembly_tb3"
+# Entity `assembly_tb3' has been skipped - no difference detected.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "assembly_tb3"
+# Compile Configuration "TESTBENCH_FOR_assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+asim TESTBENCH_FOR_assembly 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:43 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: testbench_for_assembly
+wave 
+wave -noreg CLK
+wave -noreg Reset
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$DSN\src\TestBench\assembly_TB3_tim_cfg.vhd" 
+# # asim TIMING_FOR_assembly 
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 150 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:44 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: testbench_for_assembly
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:44 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: testbench_for_assembly
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim assembly structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:45 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly (structural)
+# Signal UUT/CLK not found in design
+# Signal UUT/Reset not found in design
+# Signal UUT/PC_out not found in design
+# Signal UUT/PC_in not found in design
+# Signal UUT/Mem_addr not found in design
+# Signal UUT/Mem_data not found in design
+# Signal UUT/IR_out not found in design
+# Signal UUT/Reg_A not found in design
+# Signal UUT/Reg_B not found in design
+# Signal UUT/ALU_A not found in design
+# Signal UUT/ALU_B not found in design
+# Signal UUT/ALU_result not found in design
+# Signal UUT/ALU_out not found in design
+# Signal UUT/Mem_data_reg not found in design
+# Signal UUT/Write_data not found in design
+# Signal UUT/Write_reg_addr not found in design
+# Signal UUT/Sign_ext_out not found in design
+# Signal UUT/Shift_left_out not found in design
+# Signal UUT/Jump_addr_full not found in design
+# Signal UUT/Jump_addr not found in design
+# Signal UUT/ALU_control not found in design
+# Signal UUT/PCWriteCond not found in design
+# Signal UUT/PCWrite not found in design
+# Signal UUT/IorD not found in design
+# Signal UUT/MemRead not found in design
+# Signal UUT/MemWrite not found in design
+# Signal UUT/MemToReg not found in design
+# Signal UUT/IRWrite not found in design
+# Signal UUT/ALUSrcA not found in design
+# Signal UUT/RegWrite not found in design
+# Signal UUT/RegDst not found in design
+# Signal UUT/Zero not found in design
+# Signal UUT/PCSource not found in design
+# Signal UUT/ALUOp not found in design
+# Signal UUT/ALUSrcB not found in design
+# Signal UUT/PC_load not found in design
+# Signal UUT/IR_en not found in design
+# Signal UUT/A_B_en not found in design
+# Signal UUT/ALUout_en not found in design
+# Signal UUT/DMR_en not found in design
+# Signal UUT/Instruction not found in design
+# Signal uut/CLK not found in design
+# Signal uut/Reset not found in design
+# Signal uut/PC_out not found in design
+# Signal uut/PC_in not found in design
+# Signal uut/Mem_addr not found in design
+# Signal uut/Mem_data not found in design
+# Signal uut/IR_out not found in design
+# Signal uut/Reg_A not found in design
+# Signal uut/Reg_B not found in design
+# Signal uut/ALU_A not found in design
+# Signal uut/ALU_B not found in design
+# Signal uut/ALU_result not found in design
+# Signal uut/ALU_out not found in design
+# Signal uut/Mem_data_reg not found in design
+# Signal uut/Write_data not found in design
+# Signal uut/Write_reg_addr not found in design
+# Signal uut/Sign_ext_out not found in design
+# Signal uut/Shift_left_out not found in design
+# Signal uut/Jump_addr_full not found in design
+# Signal uut/Jump_addr not found in design
+# Signal uut/ALU_control not found in design
+# Signal uut/PCWriteCond not found in design
+# Signal uut/PCWrite not found in design
+# Signal uut/IorD not found in design
+# Signal uut/MemRead not found in design
+# Signal uut/MemWrite not found in design
+# Signal uut/MemToReg not found in design
+# Signal uut/IRWrite not found in design
+# Signal uut/ALUSrcA not found in design
+# Signal uut/RegWrite not found in design
+# Signal uut/RegDst not found in design
+# Signal uut/Zero not found in design
+# Signal uut/PCSource not found in design
+# Signal uut/ALUOp not found in design
+# Signal uut/ALUSrcB not found in design
+# Signal uut/PC_load not found in design
+# Signal uut/IR_en not found in design
+# Signal uut/A_B_en not found in design
+# Signal uut/ALUout_en not found in design
+# Signal uut/DMR_en not found in design
+# Signal uut/Instruction not found in design
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Signal UUT/CLK not found in design
+# Signal UUT/Reset not found in design
+# Signal UUT/PC_out not found in design
+# Signal UUT/PC_in not found in design
+# Signal UUT/Mem_addr not found in design
+# Signal UUT/Mem_data not found in design
+# Signal UUT/IR_out not found in design
+# Signal UUT/Reg_A not found in design
+# Signal UUT/Reg_B not found in design
+# Signal UUT/ALU_A not found in design
+# Signal UUT/ALU_B not found in design
+# Signal UUT/ALU_result not found in design
+# Signal UUT/ALU_out not found in design
+# Signal UUT/Mem_data_reg not found in design
+# Signal UUT/Write_data not found in design
+# Signal UUT/ALU_control not found in design
+# Signal UUT/PCWrite not found in design
+# Signal UUT/MemRead not found in design
+# Signal UUT/MemWrite not found in design
+# Signal UUT/Instruction not found in design
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim assembly behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:48 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly (behavioral)
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Entity 'memory' instantiated in the architecture 'structural' was compiled after the compilation of this architecture.
+# ELBREAD: Error: Incompatible port types in port map. Region: /mips_multicycle/Mem_inst
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Design: Design design5 already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim assembly structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:49 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly (structural)
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:50 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly (structural)
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2757 kB (elbread=1071 elab2=601 kernel=1085 sdf=0)
+# 10:50 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly (structural)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim assembly_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2759 kB (elbread=1071 elab2=603 kernel=1085 sdf=0)
+# 10:53 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavior)
+# Signal ALUOp not found in design
+# Signal ALUSrcB not found in design
+# Signal PC_load not found in design
+# Signal IR_en not found in design
+# Signal A_B_en not found in design
+# Signal ALUout_en not found in design
+# Signal DMR_en not found in design
+# Signal Instruction not found in design
+# Signal ALU_control not found in design
+# Signal PCWriteCond not found in design
+# Signal PCWrite not found in design
+# Signal IorD not found in design
+# Signal MemRead not found in design
+# Signal MemWrite not found in design
+# Signal MemToReg not found in design
+# Signal IRWrite not found in design
+# Signal ALUSrcA not found in design
+# Signal RegWrite not found in design
+# Signal RegDst not found in design
+# Signal Zero not found in design
+# Signal PCSource not found in design
+# Signal PC_out not found in design
+# Signal PC_in not found in design
+# Signal Mem_addr not found in design
+# Signal Mem_data not found in design
+# Signal IR_out not found in design
+# Signal Reg_A not found in design
+# Signal Reg_B not found in design
+# Signal ALU_A not found in design
+# Signal ALU_B not found in design
+# Signal ALU_result not found in design
+# Signal ALU_out not found in design
+# Signal Mem_data_reg not found in design
+# Signal Write_data not found in design
+# Signal Write_reg_addr not found in design
+# Signal Sign_ext_out not found in design
+# Signal Shift_left_out not found in design
+# Signal Jump_addr_full not found in design
+# Signal Jump_addr not found in design
+# Signal PC_out not found in design
+# Signal Jump_addr not found in design
+# Signal ALU_control not found in design
+# Signal PCWriteCond not found in design
+# Signal PCWrite not found in design
+# Signal IorD not found in design
+# Signal MemRead not found in design
+# Signal MemWrite not found in design
+# Signal MemToReg not found in design
+# Signal IRWrite not found in design
+# Signal ALUSrcA not found in design
+# Signal RegWrite not found in design
+# Signal RegDst not found in design
+# Signal Zero not found in design
+# Signal PCSource not found in design
+# Signal ALUOp not found in design
+# Signal ALUSrcB not found in design
+# Signal PC_load not found in design
+# Signal IR_en not found in design
+# Signal A_B_en not found in design
+# Signal ALUout_en not found in design
+# Signal DMR_en not found in design
+# Signal Instruction not found in design
+# Signal PC_in not found in design
+# Signal Mem_addr not found in design
+# Signal Mem_data not found in design
+# Signal IR_out not found in design
+# Signal Reg_A not found in design
+# Signal Reg_B not found in design
+# Signal ALU_A not found in design
+# Signal ALU_B not found in design
+# Signal ALU_result not found in design
+# Signal ALU_out not found in design
+# Signal Mem_data_reg not found in design
+# Signal Write_data not found in design
+# Signal Write_reg_addr not found in design
+# Signal Sign_ext_out not found in design
+# Signal Shift_left_out not found in design
+# Signal Jump_addr_full not found in design
+# Signal PC_out not found in design
+# Signal Reg_A not found in design
+# Signal Reg_B not found in design
+# Signal ALU_A not found in design
+# Signal ALU_B not found in design
+# Signal ALU_result not found in design
+# Signal ALU_out not found in design
+# Signal Mem_data_reg not found in design
+# Signal Write_data not found in design
+# Signal Write_reg_addr not found in design
+# Signal Sign_ext_out not found in design
+# Signal Shift_left_out not found in design
+# Signal Jump_addr_full not found in design
+# Signal Jump_addr not found in design
+# Signal ALU_control not found in design
+# Signal PCWriteCond not found in design
+# Signal PCWrite not found in design
+# Signal IorD not found in design
+# Signal MemRead not found in design
+# Signal MemWrite not found in design
+# Signal MemToReg not found in design
+# Signal IRWrite not found in design
+# Signal ALUSrcA not found in design
+# Signal RegWrite not found in design
+# Signal RegDst not found in design
+# Signal Zero not found in design
+# Signal PCSource not found in design
+# Signal ALUOp not found in design
+# Signal ALUSrcB not found in design
+# Signal PC_load not found in design
+# Signal IR_en not found in design
+# Signal A_B_en not found in design
+# Signal ALUout_en not found in design
+# Signal DMR_en not found in design
+# Signal Instruction not found in design
+# Signal PC_in not found in design
+# Signal Mem_addr not found in design
+# Signal Mem_data not found in design
+# Signal IR_out not found in design
+run
+# KERNEL: stopped at time: 1251685 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim assembly_tb behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2759 kB (elbread=1071 elab2=603 kernel=1085 sdf=0)
+# 10:54 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavior)
+# Signal ALUOp not found in design
+# Signal ALUSrcB not found in design
+# Signal PC_load not found in design
+# Signal IR_en not found in design
+# Signal A_B_en not found in design
+# Signal ALUout_en not found in design
+# Signal DMR_en not found in design
+# Signal Instruction not found in design
+# Signal ALU_control not found in design
+# Signal PCWriteCond not found in design
+# Signal PCWrite not found in design
+# Signal IorD not found in design
+# Signal MemRead not found in design
+# Signal MemWrite not found in design
+# Signal MemToReg not found in design
+# Signal IRWrite not found in design
+# Signal ALUSrcA not found in design
+# Signal RegWrite not found in design
+# Signal RegDst not found in design
+# Signal Zero not found in design
+# Signal PCSource not found in design
+# Signal PC_out not found in design
+# Signal PC_in not found in design
+# Signal Mem_addr not found in design
+# Signal Mem_data not found in design
+# Signal IR_out not found in design
+# Signal Reg_A not found in design
+# Signal Reg_B not found in design
+# Signal ALU_A not found in design
+# Signal ALU_B not found in design
+# Signal ALU_result not found in design
+# Signal ALU_out not found in design
+# Signal Mem_data_reg not found in design
+# Signal Write_data not found in design
+# Signal Write_reg_addr not found in design
+# Signal Sign_ext_out not found in design
+# Signal Shift_left_out not found in design
+# Signal Jump_addr_full not found in design
+# Signal Jump_addr not found in design
+# Signal PC_out not found in design
+# Signal Jump_addr not found in design
+# Signal ALU_control not found in design
+# Signal PCWriteCond not found in design
+# Signal PCWrite not found in design
+# Signal IorD not found in design
+# Signal MemRead not found in design
+# Signal MemWrite not found in design
+# Signal MemToReg not found in design
+# Signal IRWrite not found in design
+# Signal ALUSrcA not found in design
+# Signal RegWrite not found in design
+# Signal RegDst not found in design
+# Signal Zero not found in design
+# Signal PCSource not found in design
+# Signal ALUOp not found in design
+# Signal ALUSrcB not found in design
+# Signal PC_load not found in design
+# Signal IR_en not found in design
+# Signal A_B_en not found in design
+# Signal ALUout_en not found in design
+# Signal DMR_en not found in design
+# Signal Instruction not found in design
+# Signal PC_in not found in design
+# Signal Mem_addr not found in design
+# Signal Mem_data not found in design
+# Signal IR_out not found in design
+# Signal Reg_A not found in design
+# Signal Reg_B not found in design
+# Signal ALU_A not found in design
+# Signal ALU_B not found in design
+# Signal ALU_result not found in design
+# Signal ALU_out not found in design
+# Signal Mem_data_reg not found in design
+# Signal Write_data not found in design
+# Signal Write_reg_addr not found in design
+# Signal Sign_ext_out not found in design
+# Signal Shift_left_out not found in design
+# Signal Jump_addr_full not found in design
+# Signal PC_out not found in design
+# Signal Reg_A not found in design
+# Signal Reg_B not found in design
+# Signal ALU_A not found in design
+# Signal ALU_B not found in design
+# Signal ALU_result not found in design
+# Signal ALU_out not found in design
+# Signal Mem_data_reg not found in design
+# Signal Write_data not found in design
+# Signal Write_reg_addr not found in design
+# Signal Sign_ext_out not found in design
+# Signal Shift_left_out not found in design
+# Signal Jump_addr_full not found in design
+# Signal Jump_addr not found in design
+# Signal ALU_control not found in design
+# Signal PCWriteCond not found in design
+# Signal PCWrite not found in design
+# Signal IorD not found in design
+# Signal MemRead not found in design
+# Signal MemWrite not found in design
+# Signal MemToReg not found in design
+# Signal IRWrite not found in design
+# Signal ALUSrcA not found in design
+# Signal RegWrite not found in design
+# Signal RegDst not found in design
+# Signal Zero not found in design
+# Signal PCSource not found in design
+# Signal ALUOp not found in design
+# Signal ALUSrcB not found in design
+# Signal PC_load not found in design
+# Signal IR_en not found in design
+# Signal A_B_en not found in design
+# Signal ALUout_en not found in design
+# Signal DMR_en not found in design
+# Signal Instruction not found in design
+# Signal PC_in not found in design
+# Signal Mem_addr not found in design
+# Signal Mem_data not found in design
+# Signal IR_out not found in design
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "assembly_TB"
+# Error: COMP96_0111: assembly_TB.vhd : (29, 5): Labels do not match.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
 acom $DSN/src/Assembly.vhd
 # Compile...
 # File: C:\My_Designs\design5\design5\src\Assembly.vhd
 # Compile Entity "Assembly"
 # Entity `Assembly' has been skipped - no difference detected.
 # Compile Architecture "Structural" of Entity "Assembly"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim assembly_tb behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2759 kB (elbread=1071 elab2=603 kernel=1085 sdf=0)
+# 11:01 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Error: COMP96_0078: Assembly.vhd : (44, 18): Unknown identifier "PCcount".
+# Error: COMP96_0133: Assembly.vhd : (44, 18): Cannot find object declaration.
+# Error: COMP96_0104: Assembly.vhd : (44, 7): Undefined type of expression.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2759 kB (elbread=1071 elab2=603 kernel=1085 sdf=0)
+# 11:58 PM, Thursday, May 8, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+acom $DSN/src/pc.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\pc.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2758 kB (elbread=1071 elab2=602 kernel=1085 sdf=0)
+# 12:03 AM, Friday, May 9, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+acom $DSN/src/pc.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\pc.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/memory.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\memory.vhd
+# Compile Entity "memory"
+# Entity `memory' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/controlunit.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\controlunit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# Error: COMP96_0015: controlunit.vhd : (98, 26): ',' expected.
+# Error: COMP96_0015: controlunit.vhd : (98, 26): ';' expected.
+# Error: COMP96_0019: controlunit.vhd : (98, 26): Keyword "end" expected.
+# Error: COMP96_0016: controlunit.vhd : (98, 31): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/controlunit.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\controlunit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/memory_tb.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\memory_tb.vhd
+# Compile Entity "memory_tb"
+# Entity `memory_tb' has been skipped - no difference detected.
+# Compile Architecture "test" of Entity "memory_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/memory_tb.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\memory_tb.vhd
+# Compile Entity "memory_tb"
+# Entity `memory_tb' has been skipped - no difference detected.
+# Compile Architecture "test" of Entity "memory_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/pc.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\pc.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/controlunit.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\controlunit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/memory.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\memory.vhd
+# Compile Entity "memory"
+# Entity `memory' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2758 kB (elbread=1071 elab2=602 kernel=1085 sdf=0)
+# 12:11 AM, Friday, May 9, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2758 kB (elbread=1071 elab2=602 kernel=1085 sdf=0)
+# 12:11 AM, Friday, May 9, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+acom $DSN/src/pc.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\pc.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/controlunit.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\controlunit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/pc_tb.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\pc_tb.vhd
+# Compile Entity "PC_TB"
+# Entity `PC_TB' has been skipped - no difference detected.
+# Compile Architecture "test" of Entity "PC_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2759 kB (elbread=1071 elab2=603 kernel=1085 sdf=0)
+# 12:27 AM, Friday, May 9, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2759 kB (elbread=1071 elab2=603 kernel=1085 sdf=0)
+# 12:27 AM, Friday, May 9, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2761 kB (elbread=1071 elab2=605 kernel=1085 sdf=0)
+# 12:33 AM, Friday, May 9, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+acom $DSN/src/assembly_TB.vhd
+# Compile...
+# File: C:\My_Designs\design5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2759 kB (elbread=1071 elab2=603 kernel=1085 sdf=0)
+# 12:34 AM, Friday, May 9, 2025
+# Simulation has been initialized
+# Selected Top-Level: assembly_tb (behavioral)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# Simulation has been stopped

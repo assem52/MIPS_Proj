@@ -46,7 +46,7 @@ begin
 
   process(CLK, Reset)
   begin
-    if Reset = '0' then
+    if Reset = '1' then
       current_state <= InstructionFetch;
     elsif rising_edge(CLK) then
       current_state <= next_state;

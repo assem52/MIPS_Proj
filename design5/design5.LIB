@@ -1,33 +1,36 @@
-timestamp=1746710940588
+timestamp=1746740074428
 
 [alu]
-A/behavior=21|./src/alu.vhd|16|1*505773
-B/behavior=3*225992
-H/behavior=0*525141
+A/behavior=21|./src/alu.vhd|16|1*574450
+B/behavior=3*266175
+H/behavior=0*578207
 R=./src/alu.vhd|5
 V=0*54631
 
 [alu_control_unit]
-A/behavioral=A/Behavioral 21|./src/alu_control_unit.vhd|13|1*503329
-B/behavioral=3*221442
-H/behavioral=0*523355
+A/behavioral=A/Behavioral 21|./src/alu_control_unit.vhd|13|1*572006
+B/behavioral=3*261625
+H/behavioral=0*576421
 R=./src/alu_control_unit.vhd|5
 V=0*105290
 
 [assembly]
 A/behavioral=A/Behavioral 21|./src/Assembly.vhd|12|1*530357
-A/structural=A/Structural 21|./src/Assembly.vhd|12|1*545433
+A/structural=A/Structural 21|./src/Assembly.vhd|12|1*755237
 B/behavioral=3*242348
-B/structural=3*246678
+B/structural=3*351287
 H/behavioral=0*540273
-H/structural=0*555502
+H/structural=0*746295
 R=./src/Assembly.vhd|5
 V=0*152136
 
 [assembly_tb]
 A/behavior=21|./src/assembly_TB.vhd|7|1*202704
+A/behavioral=A/Behavioral 21|./src/assembly_TB.vhd|7|1*770783
 B/behavior=3*75632
+B/behavioral=3*353721
 H/behavior=0*265587
+H/behavioral=0*762149
 R=./src/assembly_TB.vhd|4
 V=0*266850
 
@@ -38,15 +41,15 @@ R=./src/TestBench/assembly_TB.vhd|27
 V=0*334555
 
 [assembly_tb3]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/assembly_TB3.vhd|30|1*542445
-H/tb_architecture=0*553080
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/assembly_TB3.vhd|30|1*611122
+H/tb_architecture=0*606146
 R=./src/TestBench/assembly_TB3.vhd|27
 V=0*514758
 
 [controlunit]
-A/behavioral=A/Behavioral 21|./src/controlunit.vhd|26|1*488844
-B/behavioral=3*208929
-H/behavioral=0*515243
+A/behavioral=A/Behavioral 21|./src/controlunit.vhd|26|1*745746
+B/behavioral=3*340805
+H/behavioral=0*738435
 R=./src/controlunit.vhd|5
 V=0*123094
 
@@ -61,23 +64,23 @@ V=0*84427
 S/fub1=S/Fub1 40|0|2*0
 
 [instructionregister]
-A/behavioral=A/Behavioral 21|./src/InstructionRegister.vhd|15|1*520643
-B/behavioral=3*235058
-H/behavioral=0*531839
+A/behavioral=A/Behavioral 21|./src/InstructionRegister.vhd|15|1*589320
+B/behavioral=3*275241
+H/behavioral=0*584905
 R=./src/InstructionRegister.vhd|5
 V=0*251756
 
 [memory]
-A/behavioral=21|./src/memory.vhd|16|1*522753
-B/behavioral=3*236332
-H/behavioral=0*533125
+A/behavioral=21|./src/memory.vhd|16|1*723424
+B/behavioral=3*330457
+H/behavioral=0*716500
 R=./src/memory.vhd|5
 V=0*222859
 
 [memory_tb]
-A/test=21|./src/memory_tb.vhd|10|1*416287
-B/test=3*165364
-H/test=0*445678
+A/test=21|./src/memory_tb.vhd|10|1*711423
+B/test=3*318569
+H/test=0*706503
 R=./src/memory_tb.vhd|7
 V=0*33283
 
@@ -89,54 +92,54 @@ R=./src/Assembly.vhd|5
 V=0*138749
 
 [mux3]
-A/bahavior=21|./src/mux_3in_32bit.vhd|16|1*495435
-B/bahavior=3*217771
-H/bahavior=0*519460
+A/bahavior=21|./src/mux_3in_32bit.vhd|16|1*564112
+B/bahavior=3*257954
+H/bahavior=0*572526
 R=./src/mux_3in_32bit.vhd|5
 V=0*67547
 
 [mux4]
-A/bahavior=21|./src/mux_4in_32bit.vhd|17|1*508847
-B/bahavior=3*229644
-H/bahavior=0*526826
+A/bahavior=21|./src/mux_4in_32bit.vhd|17|1*577524
+B/bahavior=3*269827
+H/bahavior=0*579892
 R=./src/mux_4in_32bit.vhd|5
 V=0*5096
 
 [mux_2_32]
 A/bahavior=21|./src/mux_2in_32bit.vhd|15|1*25666
-A/behavior=21|./src/mux_2in_32bit.vhd|15|1*497870
+A/behavior=21|./src/mux_2in_32bit.vhd|15|1*566547
 B/bahavior=3*13312
-B/behavior=3*218839
+B/behavior=3*259022
 H/bahavior=0*48770
-H/behavior=0*520492
+H/behavior=0*573558
 R=./src/mux_2in_32bit.vhd|5
 V=0*49895
 
 [mux_2_5]
-A/behavior=21|./src/mux_2in_5bit.vhd|15|1*515925
-B/behavior=3*232849
-H/behavior=0*529547
+A/behavior=21|./src/mux_2in_5bit.vhd|15|1*584602
+B/behavior=3*273032
+H/behavior=0*582613
 R=./src/mux_2in_5bit.vhd|5
 V=0*26334
 
 [pc]
-A/behavioral=21|./src/pc.vhd|16|1*528188
-B/behavioral=3*240714
-H/behavioral=0*539183
+A/behavioral=21|./src/pc.vhd|16|1*743577
+B/behavioral=3*339171
+H/behavioral=0*737345
 R=./src/pc.vhd|6
 V=0*46956
 
 [pc_tb]
-A/test=21|./src/pc_tb.vhd|9|1*433855
-B/test=3*174357
-H/test=0*462362
+A/test=21|./src/pc_tb.vhd|9|1*752337
+B/test=3*349647
+H/test=0*742652
 R=./src/pc_tb.vhd|6
 V=0*88643
 
 [register_file]
-A/behavioral=21|./src/register_file.vhd|19|1*517533
-B/behavioral=3*233336
-H/behavioral=0*529878
+A/behavioral=21|./src/register_file.vhd|19|1*586210
+B/behavioral=3*273519
+H/behavioral=0*582944
 R=./src/register_file.vhd|7
 V=0*21611
 
@@ -148,23 +151,23 @@ R=./src/register_file_tb.vhd|7
 V=0*44598
 
 [shiftleft]
-A/behavior=21|./src/shiftleft.vhd|12|1*512836
-B/behavior=3*231391
-H/behavior=0*528202
+A/behavior=21|./src/shiftleft.vhd|12|1*581513
+B/behavior=3*271574
+H/behavior=0*581268
 R=./src/shiftleft.vhd|5
 V=0*1290
 
 [shiftleft2]
-A/behavior=21|./src/shiftleft2.vhd|11|1*511515
-B/behavior=3*230844
-H/behavior=0*527877
+A/behavior=21|./src/shiftleft2.vhd|11|1*580192
+B/behavior=3*271027
+H/behavior=0*580943
 R=./src/shiftleft2.vhd|4
 V=0*16538
 
 [sign_extend]
-A/behavior=21|./src/sign_extend.vhd|13|1*514230
-B/behavior=3*231914
-H/behavior=0*528553
+A/behavior=21|./src/sign_extend.vhd|13|1*582907
+B/behavior=3*272097
+H/behavior=0*581619
 R=./src/sign_extend.vhd|5
 V=0*10095
 
@@ -183,90 +186,92 @@ R=./src/temp_register_ab.vhd|8
 V=0*13907
 
 [temp_register_aluout]
-A/behavioral=21|./src/temp_register_aluout.vhd|15|1*501406
-B/behavioral=3*220384
-H/behavioral=0*522084
+A/behavioral=21|./src/temp_register_aluout.vhd|15|1*570083
+B/behavioral=3*260567
+H/behavioral=0*575150
 R=./src/temp_register_aluout.vhd|8
 V=0*59165
 
 [temp_register_dmr]
-A/behavioral=21|./src/temp_register_dmr.vhd|15|1*499489
-B/behavioral=3*219326
-H/behavioral=0*520828
+A/behavioral=21|./src/temp_register_dmr.vhd|15|1*568166
+B/behavioral=3*259509
+H/behavioral=0*573894
 R=./src/temp_register_dmr.vhd|8
 V=0*35729
 
 [testbench_for_assembly]
-E=1*543693
+E=1*612370
 R=./src/TestBench/assembly_TB3.vhd|58
 
 [~A]
 ./src/Assembly.vhd~Assembly=0*151466*151696
 ./src/Assembly.vhd~BehavioralAssembly=0*548802*553003
 ./src/Assembly.vhd~MIPS_MultiCycle=0*138016*138267
-./src/Assembly.vhd~StructuralAssembly=0*564031*568232
+./src/Assembly.vhd~StructuralAssembly=0*754824*759025
 ./src/Assembly.vhd~StructuralMIPS_MultiCycle=0*186775*190925
-./src/InstructionRegister.vhd~BehavioralInstructionRegister=0*532658*533026
+./src/InstructionRegister.vhd~BehavioralInstructionRegister=0*585724*586092
 ./src/InstructionRegister.vhd~InstructionRegister=0*249180*249578
 ./src/TestBench/assembly_TB.vhd~TB_ARCHITECTUREassembly_tb2=0*499529*499883
 ./src/TestBench/assembly_TB.vhd~TESTBENCH_FOR_assemblyassembly_tb2=0*499982*500261
 ./src/TestBench/assembly_TB.vhd~assembly_tb2=0*332975*333175
-./src/TestBench/assembly_TB3.vhd~TB_ARCHITECTUREassembly_tb3=0*553645*554000
-./src/TestBench/assembly_TB3.vhd~TESTBENCH_FOR_assemblyassembly_tb3=0*554100*554380
+./src/TestBench/assembly_TB3.vhd~TB_ARCHITECTUREassembly_tb3=0*606711*607066
+./src/TestBench/assembly_TB3.vhd~TESTBENCH_FOR_assemblyassembly_tb3=0*607166*607446
 ./src/TestBench/assembly_TB3.vhd~assembly_tb3=0*513174*513375
 ./src/alu.vhd~ALU=0*51541*51914
-./src/alu.vhd~behaviorALU=0*525791*526761
+./src/alu.vhd~behaviorALU=0*578857*579827
 ./src/alu_control_unit.vhd~ALU_Control_Unit=0*102257*102618
-./src/alu_control_unit.vhd~BehavioralALU_Control_Unit=0*524007*525048
+./src/alu_control_unit.vhd~BehavioralALU_Control_Unit=0*577073*578114
+./src/assembly_TB.vhd~Behavioralassembly_TB=0*762601*763056
 ./src/assembly_TB.vhd~assembly_TB=0*265356*265514
+./src/assembly_TB.vhd~behavioralassembly_TB=0*621802*622257
 ./src/assembly_TB.vhd~behaviorassembly_TB=0*266064*266515
 ./src/assembly_TB.vhd~behaviortb_assembly=0*554964*555421
 ./src/assembly_TB.vhd~tb_assembly=0*292968*293126
-./src/controlunit.vhd~BehavioralControlUnit=0*516584*519377
+./src/controlunit.vhd~BehavioralControlUnit=0*739776*742569
 ./src/controlunit.vhd~ControlUnit=0*116571*117268
 ./src/controlunit_tb.vhd~ControlUnit_tb=0*79756*79955
 ./src/controlunit_tb.vhd~behaviorControlUnit_tb=0*497309*498877
-./src/memory.vhd~behavioralmemory=0*537244*539110
+./src/memory.vhd~behavioralmemory=0*720619*722485
 ./src/memory.vhd~memory=0*215449*215841
 ./src/memory_tb.vhd~memory_tb=0*27972*28186
-./src/memory_tb.vhd~testmemory_tb=0*449375*450344
+./src/memory_tb.vhd~testmemory_tb=0*710200*711169
 ./src/mux_2in_32bit.vhd~bahaviormux_2_32=0*48861*49026
-./src/mux_2in_32bit.vhd~behaviormux_2_32=0*520583*520748
+./src/mux_2in_32bit.vhd~behaviormux_2_32=0*573649*573814
 ./src/mux_2in_32bit.vhd~mux_2_32=0*48366*48698
-./src/mux_2in_5bit.vhd~behaviormux_2_5=0*529638*529800
+./src/mux_2in_5bit.vhd~behaviormux_2_5=0*582704*582866
 ./src/mux_2in_5bit.vhd~mux_2_5=0*24829*25158
-./src/mux_3in_32bit.vhd~bahaviormux3=0*520112*520416
+./src/mux_3in_32bit.vhd~bahaviormux3=0*573178*573482
 ./src/mux_3in_32bit.vhd~mux3=0*65025*65412
-./src/mux_4in_32bit.vhd~bahaviormux4=0*527478*527801
+./src/mux_4in_32bit.vhd~bahaviormux4=0*580544*580867
 ./src/mux_4in_32bit.vhd~mux4=0*2354*2784
 ./src/pc.vhd~PC=0*44694*45049
-./src/pc.vhd~behavioralPC=0*539841*540208
+./src/pc.vhd~behavioralPC=0*738003*738370
 ./src/pc_tb.vhd~PC_TB=0*84519*84689
-./src/pc_tb.vhd~testPC_TB=0*465099*465940
-./src/register_file.vhd~behavioralregister_file=0*531219*531752
+./src/pc_tb.vhd~testPC_TB=0*745389*746230
+./src/register_file.vhd~behavioralregister_file=0*584285*584818
 ./src/register_file.vhd~register_file=0*17604*18171
 ./src/register_file_tb.vhd~register_file_TB=0*36989*37231
 ./src/register_file_tb.vhd~testregister_file_TB=0*457200*458546
-./src/shiftleft.vhd~behaviorshiftLeft=0*528293*528476
+./src/shiftleft.vhd~behaviorshiftLeft=0*581359*581542
 ./src/shiftleft.vhd~shiftLeft=0*0*267
-./src/shiftleft2.vhd~behaviorshiftLeft2=0*527968*528123
+./src/shiftleft2.vhd~behaviorshiftLeft2=0*581034*581189
 ./src/shiftleft2.vhd~shiftLeft2=0*15313*15555
-./src/sign_extend.vhd~behaviorsign_extend=0*529209*529466
+./src/sign_extend.vhd~behaviorsign_extend=0*582275*582532
 ./src/sign_extend.vhd~sign_extend=0*8126*8405
 ./src/temp_register_ab.vhd~behavioraltemp_register_AB=0*442596*442968
 ./src/temp_register_ab.vhd~temp_register_AB=0*11163*11478
-./src/temp_register_aluout.vhd~behavioraltemp_register_ALUout=0*522910*523254
+./src/temp_register_aluout.vhd~behavioraltemp_register_ALUout=0*575976*576320
 ./src/temp_register_aluout.vhd~temp_register_ALUout=0*56753*57075
-./src/temp_register_dmr.vhd~behavioraltemp_register_DMR=0*521654*521989
+./src/temp_register_dmr.vhd~behavioraltemp_register_DMR=0*574720*575055
 ./src/temp_register_dmr.vhd~temp_register_DMR=0*33365*33675
-ModifyID=899
+ModifyID=1190
 Version=73
 
 [~MFT]
-0=929|0design5.mgf|568232|418441
-1=245|1design5.mgf|545433|456396
+0=1216|0design5.mgf|763056|611743
+1=342|1design5.mgf|770783|669658
 2=0|2design5.mgf|0|0
-3=224|3design5.mgf|246678|193798
+3=317|3design5.mgf|353721|298407
 
 [~U]
 alu=ALU 11|0*53679|0*53935

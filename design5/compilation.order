@@ -21,5 +21,3 @@
 .\src\Assembly.vhd
 .\src\assembly_TB.vhd
 .\src\controlunit_tb.vhd
-.\src\TestBench\assembly_TB.vhd
-.\src\testbench\assembly_tb3.vhd

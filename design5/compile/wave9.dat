@@ -1,0 +1,281 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 CLK
+$IN 5 1 Reset
+I 2 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 137 2 32 PC_out
+$SC 9-133/4
+$BUS S 266 2 32 PC_in
+$SC 138-262/4
+$BUS S 395 2 32 Mem_addr
+$SC 267-391/4
+$BUS S 524 2 32 Mem_data
+$SC 396-520/4
+$BUS S 653 2 32 IR_out
+$SC 525-649/4
+$BUS S 782 2 32 Reg_A
+$SC 654-778/4
+$BUS S 911 2 32 Reg_B
+$SC 783-907/4
+$BUS S +133 2 32 ALU_A
+$SC 912-+124/4
+$BUS S +133 2 32 ALU_B
+$SC 1041-+124/4
+$BUS S +133 2 32 ALU_result
+$SC 1170-+124/4
+$BUS S +133 2 32 4 1 ou
+$SC 1299-+124/4
+$BUS S +133 2 32 Mem_data_reg
+$SC 1428-+124/4
+$BUS S +133 2 32 Write_data
+$SC 1557-+124/4
+I 3 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +25 3 5 6 0 reg_addr
+$SC +-20-+16/4
+$BUS S +133 2 32 Sign_ext_out
+$SC 1707-+124/4
+$BUS S +133 2 32 1 5 hift_lef
+$SC 1836-+124/4
+$BUS S +133 2 32 Jump_addr_full
+$SC 1965-+124/4
+I 4 "a#29#std_logic_vector(27 downto 0)1 ricd27 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +117 4 28 9 0 ""
+$SC 2094-+108/4
+I 5 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +21 5 4 ALU_control
+$SC +-16-+12/4
+$S +5 1 PCWriteCond
+$S +4 1 7 0 ""
+$S +4 1 IorD
+$S +4 1 MemRead
+$S +4 1 MemWrite
+$S +4 1 MemToReg
+$S +4 1 IRWrite
+$S +4 1 ALUSrcA
+$S +4 1 RegWrite
+$S +4 1 RegDst
+$S +4 1 Zero
+I 6 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +12 6 2 PCSource
+$SC +-8 +4
+$BUS S +13 6 2 ALUOp
+$SC +-8 +4
+$BUS S +13 6 2 ALUSrcB
+$SC +-8 +4
+$S +5 1 PC_load
+$S +4 1 IR_en
+$S +4 1 A_B_en
+$S +4 1 ALUout_en
+$S +4 1 DMR_en
+$BUS S +132 2 32 Instruction
+$SC 2315-+124/4
+$IN 1 0 CLK
+$IN 5 0 Reset
+$BUS S 2444 2 32 PC_out
+$SC 9-133/4
+$BUS S 2445 2 32 PC_in
+$SC 138-262/4
+$BUS S 2446 2 32 Mem_addr
+$SC 267-391/4
+$BUS S 2447 2 32 Mem_data
+$SC 396-520/4
+$BUS S 2448 2 32 IR_out
+$SC 525-649/4
+$BUS S 2449 2 32 Reg_A
+$SC 654-778/4
+$BUS S 2450 2 32 Reg_B
+$SC 783-907/4
+$BUS S 2451 2 32 ALU_A
+$SC 912-+124/4
+$BUS S 2452 2 32 ALU_B
+$SC 1041-+124/4
+$BUS S 2453 2 32 ALU_result
+$SC 1170-+124/4
+$BUS S 2454 2 32 4 1 ou
+$SC 1299-+124/4
+$BUS S 2455 2 32 Mem_data_reg
+$SC 1428-+124/4
+$BUS S +904 2 32 Write_data
+$SC 1557-+124/4
+$BUS S +776 3 5 6 0 reg_addr
+$SC 1686-+16/4
+$BUS S +756 2 32 Sign_ext_out
+$SC 1707-+124/4
+$BUS S +628 2 32 1 5 hift_lef
+$SC 1836-+124/4
+$BUS S +500 2 32 Jump_addr_full
+$SC 1965-+124/4
+$BUS S +372 4 28 9 0 ""
+$SC 2094-+108/4
+$BUS S +260 5 4 ALU_control
+$SC 2207-+12/4
+$S +5 0 PCWriteCond
+$S +4 0 7 0 ""
+$S +4 0 IorD
+$S +4 0 MemRead
+$S +4 0 MemWrite
+$S +4 0 MemToReg
+$S +4 0 IRWrite
+$S +4 0 ALUSrcA
+$S +4 0 RegWrite
+$S +4 0 RegDst
+$S +4 0 Zero
+$BUS S +199 6 2 PCSource
+$SC 2268 +4
+$BUS S +192 6 2 ALUOp
+$SC 2277 +4
+$BUS S +184 6 2 ALUSrcB
+$SC 2286 +4
+$S +5 0 PC_load
+$S +4 0 IR_en
+$S +4 0 A_B_en
+$S +4 0 ALUout_en
+$S +4 0 DMR_en
+$BUS S +155 2 32 Instruction
+$SC 2315-+124/4
+$ENDTIME 150000
+$WAVES 2264
+=0 T 0
+=1 D 0 1
+=2 D 0 2
+=3 D 0 4
+$VALUES
+V 4
+U
+0
+1
+0
+$END
+$WAVES 1157
+*0
+*2
+*3
+$VALUES
+V 3
+U
+0
+1
+$END
+$WAVES 1-133/4 267-391/4 +5-520/4 912-+124/4 +929-+12/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES 138-262/4
+*0
+*2
+=4 D 0 3
+*3
+=5 D 0 6
+=6 D 0 8
+$VALUES
+R 2 2 U 0
+V 2
+X
+U
+$END
+$WAVES 525-649/4 +5-778/4 +5-907/4 +392-+124/4 +5-+124/4 +404 +4 +238 +4 +22-+16/8 +4 +8-+8/4 +8 +4 +5 +4 +5
+*0
+*1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1041-+112/4 +8 +4 +392-+124/4 +404 +4 +226-+124/4
+*0
+*2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1170-+124/4
+*0
+*2
+*3
+*5
+$VALUES
+V 4
+U
+0
+X
+U
+$END
+$WAVES +392-+16/4 +69-+60/4 +263-+100/4
+*0
+*4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1707-+60/4 +125-+60/4 +29-+100/4
+*0
+*3
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1836-+52/4
+*0
+=7 D 0 5
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +319 +12
+*0
+*1
+*2
+$VALUES
+V 3
+U
+1
+0
+$END
+$WAVES +-8 +4
+*0
+*1
+*2
+*3
+$VALUES
+V 4
+U
+1
+0
+1
+$END
+$WAVES +13 +8 +12 +42
+*0
+*1
+*2
+$VALUES
+V 3
+U
+0
+1
+$END
+$WAVES +5 +4
+*0
+*2
+*4
+$VALUES
+V 3
+U
+0
+1
+$END
+$WAVES +4-+8/4
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$ENDWAVE

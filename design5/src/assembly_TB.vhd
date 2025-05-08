@@ -1,14 +1,14 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity tb_assembly is
-end tb_assembly;
+entity assembly_TB is
+end assembly_TB;
 
-architecture behavior of tb_assembly is
-  signal CLK, Reset : std_logic := '0';
+architecture Behavioral of assembly_TB is
+  signal CLK, Reset : std_logic := '0';	  
   constant CLK_period : time := 10 ns;
 begin
-  uut: entity work.Assembly
+  uut: entity Assembly
     port map (
       CLK   => CLK,
       Reset => Reset
@@ -26,4 +26,4 @@ begin
     Reset <= '0'; wait for 1000 ns; -- Run for multiple cycles
     wait;
   end process;
-end behavior;
+end Behavioral;
