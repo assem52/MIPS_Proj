@@ -1,11 +1,11 @@
-elbread.dll ver. 1.0.5.365 Wed May 07 22:46:57 2025
+elbread.dll ver. 1.0.5.365 Thu May 08 16:19:52 2025
 
 
 ----------------------------------------------
 Entity                | Architecture | Library
 ----------------------------------------------
 assembly_tb           | behavior     | design5
-assembly              | structural   | design5
+assembly              | behavioral   | design5
 pc                    | behavioral   | design5
 mux_2_32              | behavior     | design5
 memory                | behavioral   | design5

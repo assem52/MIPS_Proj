@@ -1,0 +1,106 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$S 1 1 CLK
+$S 5 1 Reset
+$IN 1 0 "UUT/Mem_inst/clk"
+I 2 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 137 2 32 13 0 write_data
+$SC 9-133/4
+$BUS OUT 266 2 32 13 5 read
+$SC 138-262/4
+$BUS S 395 2 32 "UUT/IR_inst/IR"
+$SC 267-391/4
+$BUS OUT 524 2 32 14 0 _out
+$SC 396-520/4
+$BUS IN 653 2 32 "UUT/ALU_A_mux/in0"
+$SC 525-649/4
+$BUS IN 782 2 32 16 0 "1"
+$SC 654-778/4
+$IN +5 1 14 0 sel
+$BUS OUT 915 2 32 14 0 output
+$SC 787-911/4
+$BUS OUT +133 2 32 8 11 B
+$SC 916-+124/4
+I 3 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +21 3 4 8 0 "ctrl_inst/ALUcontrol"
+$SC +-16-+12/4
+$OUT +5 1 "UUT/Ctrl_unit_inst/MemRead"
+$OUT +4 1 22 0 Write
+$OUT +4 1 19 5 PC
+$OUT +4 1 19 5 Reg
+I 4 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +12 4 2 19 0 ALUOp
+$SC +-8 +4
+$ENDTIME 100000
+$WAVES +-50
+=0 T 0
+=1 D 0 2
+=2 D 0 4
+$VALUES
+V 3
+U
+0
+1
+$END
+$WAVES 1 5 138-262/4 525-649/4 787-911/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES 9-133/4 396-520/4 654-778/4 +5 +283 +8-+8/4
+*0
+=3 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 267-391/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 916-+112/4 +8 +4
+*0
+*1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +5 +12
+*0
+*3
+*1
+$VALUES
+V 3
+U
+1
+0
+$END
+$WAVES +-8 +4
+*0
+*3
+*1
+*2
+$VALUES
+V 4
+U
+1
+0
+1
+$END
+$WAVES +9 +8
+*0
+*3
+*1
+$VALUES
+V 3
+U
+0
+1
+$END
+$ENDWAVE

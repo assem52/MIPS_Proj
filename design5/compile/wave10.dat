@@ -1,0 +1,108 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 129 1 32 "UUT/PC_out"
+$SC 1-125/4
+$BUS S 258 1 32 7 0 in
+$SC 130-254/4
+$BUS S 387 1 32 "UUT/Mem_addr"
+$SC 259-383/4
+$BUS S 516 1 32 8 0 data
+$SC 388-512/4
+$BUS S 645 1 32 "UUT/IR_out"
+$SC 517-641/4
+$BUS S 774 1 32 "UUT/Reg_A"
+$SC 646-770/4
+$BUS S 903 1 32 8 0 B
+$SC 775-899/4
+$BUS S +133 1 32 "UUT/ALU_A"
+$SC 904-+124/4
+$BUS S +133 1 32 8 0 B
+$SC 1033-+124/4
+$BUS S +133 1 32 8 0 result
+$SC 1162-+124/4
+$BUS S +133 1 32 8 1 ou
+$SC 1291-+124/4
+$BUS S +133 1 32 "UUT/Mem_data_reg"
+$SC 1420-+124/4
+$BUS S +133 1 32 "UUT/Write_data"
+$SC 1549-+124/4
+I 3 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +21 3 4 "UUT/ALU_control"
+$SC +-16-+12/4
+$S +5 2 "UUT/PCWrite"
+$S +4 2 "UUT/MemRead"
+$S +4 2 7 0 Write
+$BUS S +132 1 32 "UUT/Instruction"
+$SC 1707-+124/4
+$IN +5 2 "UUT/CLK"
+$IN +4 2 "UUT/Reset"
+$IN +-4 0 "UUT/CLK"
+$IN +4 0 "UUT/Reset"
+$BUS S +4 1 32 4 1 PC_ou
+$SC 1-125/4
+$BUS S 1845 1 32 7 0 in
+$SC 130-254/4
+$BUS S 1846 1 32 "UUT/Mem_addr"
+$SC 259-383/4
+$BUS S 1847 1 32 8 0 data
+$SC 388-512/4
+$BUS S 1848 1 32 "UUT/IR_out"
+$SC 517-641/4
+$BUS S 1849 1 32 "UUT/Reg_A"
+$SC 646-770/4
+$BUS S 1850 1 32 8 0 B
+$SC 775-899/4
+$BUS S +952 1 32 "UUT/ALU_A"
+$SC 904-+124/4
+$BUS S +824 1 32 8 0 B
+$SC 1033-+124/4
+$BUS S +696 1 32 8 0 result
+$SC 1162-+124/4
+$BUS S +568 1 32 8 1 ou
+$SC 1291-+124/4
+$BUS S +440 1 32 "UUT/Mem_data_reg"
+$SC 1420-+124/4
+$BUS S +312 1 32 "UUT/Write_data"
+$SC 1549-+124/4
+I 4 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +204 4 5 10 0 reg_addr
+$SC +-20-+16/4
+$BUS S +133 1 32 "UUT/Sign_ext_out"
+$SC 1878-+124/4
+$BUS S +133 1 32 5 5 hift_lef
+$SC 2007-+124/4
+$BUS S +133 1 32 "UUT/Jump_addr_full"
+$SC 2136-+124/4
+I 5 "a#29#std_logic_vector(27 downto 0)1 ricd27 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +117 5 28 13 0 ""
+$SC 2265-+108/4
+$BUS S +5 3 4 "UUT/ALU_control"
+$SC 1678-+12/4
+$S +689 2 "UUT/PCWriteCond"
+$S 1695 0 11 0 ""
+$S +688 2 "UUT/IorD"
+$S 1699 0 "UUT/MemRead"
+$S +4 0 7 0 Write
+$S +684 2 7 0 ToReg
+$S +4 2 "UUT/IRWrite"
+$S +4 2 "UUT/ALUSrcA"
+$S +4 2 "UUT/RegWrite"
+$S +4 2 7 0 Dst
+$S +4 2 "UUT/Zero"
+I 6 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +12 6 2 "UUT/PCSource"
+$SC +-8 +4
+$BUS S +13 6 2 "UUT/ALUOp"
+$SC +-8 +4
+$BUS S +13 6 2 7 0 SrcB
+$SC +-8 +4
+$S +5 2 "UUT/PC_load"
+$S +4 2 "UUT/IR_en"
+$S +4 2 4 3 A_B
+$S +4 2 5 3 LUout
+$S +4 2 4 3 DMR
+$BUS S +4 1 32 4 1 Instructio
+$SC 1707-+124/4
+$ENDWAVE

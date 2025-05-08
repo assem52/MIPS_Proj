@@ -29,9 +29,15 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=assembly_tb|behavior|0 memory|behavioral|0 
+HierarchyInformation=assembly_tb|behavior|0  
 ShowHide=ShowTopLevel
 Selected=
+
+[Groups]
+TestBench=1
+
+[ORDER]
+Synchronize=0
 
 [Files]
 /shiftleft.vhd=-1
@@ -57,6 +63,14 @@ Selected=
 /Assembly.vhd=-1
 /InstructionRegister.vhd=-1
 /assembly_TB.vhd=-1
+/Waveform Editor 1.awf=-1
+/Waveform Editor 2.awf=-1
+/Waveform Editor 3.awf=-1
+/Waveform Editor 4.awf=-1
+TestBench/assembly_TB.vhd=-1
+TestBench/assembly_TB_runtest.do=-1
+TestBench/assembly_TB3.vhd=-1
+TestBench/assembly_TB3_runtest.do=-1
 
 [Files.Data]
 .\src\shiftleft.vhd=VHDL Source Code
@@ -82,4 +96,12 @@ Selected=
 .\src\Assembly.vhd=VHDL Source Code
 .\src\InstructionRegister.vhd=VHDL Source Code
 .\src\assembly_TB.vhd=VHDL Source Code
+.\src\Waveform Editor 1.awf=Waveform File
+.\src\Waveform Editor 2.awf=Waveform File
+.\src\Waveform Editor 3.awf=Waveform File
+.\src\Waveform Editor 4.awf=Waveform File
+.\src\TestBench\assembly_TB.vhd=VHDL Test Bench
+.\src\TestBench\assembly_TB_runtest.do=Macro
+.\src\TestBench\assembly_TB3.vhd=VHDL Test Bench
+.\src\TestBench\assembly_TB3_runtest.do=Macro
 

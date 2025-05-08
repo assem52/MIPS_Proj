@@ -1,0 +1,290 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 129 1 32 "UUT/PC_out"
+$SC 1-125/4
+$BUS S 258 1 32 7 0 in
+$SC 130-254/4
+$BUS S 387 1 32 "UUT/Mem_addr"
+$SC 259-383/4
+$BUS S 516 1 32 8 0 data
+$SC 388-512/4
+$BUS S 645 1 32 "UUT/IR_out"
+$SC 517-641/4
+$BUS S 774 1 32 "UUT/Reg_A"
+$SC 646-770/4
+$BUS S 903 1 32 8 0 B
+$SC 775-899/4
+$BUS S +133 1 32 "UUT/ALU_A"
+$SC 904-+124/4
+$BUS S +133 1 32 8 0 B
+$SC 1033-+124/4
+$BUS S +133 1 32 8 0 result
+$SC 1162-+124/4
+$BUS S +133 1 32 8 1 ou
+$SC 1291-+124/4
+$BUS S +133 1 32 "UUT/Mem_data_reg"
+$SC 1420-+124/4
+$BUS S +133 1 32 "UUT/Write_data"
+$SC 1549-+124/4
+I 3 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +21 3 4 "UUT/ALU_control"
+$SC +-16-+12/4
+$S +5 2 "UUT/PCWrite"
+$S +4 2 "UUT/MemRead"
+$S +4 2 7 0 Write
+$BUS S +132 1 32 "UUT/Instruction"
+$SC 1707-+124/4
+$IN +5 2 "UUT/CLK"
+$IN +4 2 "UUT/Reset"
+$IN +-4 0 "UUT/CLK"
+$IN +4 0 "UUT/Reset"
+$BUS S +4 1 32 4 1 PC_ou
+$SC 1-125/4
+$BUS S 1845 1 32 7 0 in
+$SC 130-254/4
+$BUS S 1846 1 32 "UUT/Mem_addr"
+$SC 259-383/4
+$BUS S 1847 1 32 8 0 data
+$SC 388-512/4
+$BUS S 1848 1 32 "UUT/IR_out"
+$SC 517-641/4
+$BUS S 1849 1 32 "UUT/Reg_A"
+$SC 646-770/4
+$BUS S 1850 1 32 8 0 B
+$SC 775-899/4
+$BUS S +952 1 32 "UUT/ALU_A"
+$SC 904-+124/4
+$BUS S +824 1 32 8 0 B
+$SC 1033-+124/4
+$BUS S +696 1 32 8 0 result
+$SC 1162-+124/4
+$BUS S +568 1 32 8 1 ou
+$SC 1291-+124/4
+$BUS S +440 1 32 "UUT/Mem_data_reg"
+$SC 1420-+124/4
+$BUS S +312 1 32 "UUT/Write_data"
+$SC 1549-+124/4
+I 4 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +204 4 5 10 0 reg_addr
+$SC +-20-+16/4
+$BUS S +133 1 32 "UUT/Sign_ext_out"
+$SC 1878-+124/4
+$BUS S +133 1 32 5 5 hift_lef
+$SC 2007-+124/4
+$BUS S +133 1 32 "UUT/Jump_addr_full"
+$SC 2136-+124/4
+I 5 "a#29#std_logic_vector(27 downto 0)1 ricd27 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +117 5 28 13 0 ""
+$SC 2265-+108/4
+$BUS S +5 3 4 "UUT/ALU_control"
+$SC 1678-+12/4
+$S +689 2 "UUT/PCWriteCond"
+$S 1695 0 11 0 ""
+$S +688 2 "UUT/IorD"
+$S 1699 0 "UUT/MemRead"
+$S +4 0 7 0 Write
+$S +684 2 7 0 ToReg
+$S +4 2 "UUT/IRWrite"
+$S +4 2 "UUT/ALUSrcA"
+$S +4 2 "UUT/RegWrite"
+$S +4 2 7 0 Dst
+$S +4 2 "UUT/Zero"
+I 6 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +12 6 2 "UUT/PCSource"
+$SC +-8 +4
+$BUS S +13 6 2 "UUT/ALUOp"
+$SC +-8 +4
+$BUS S +13 6 2 7 0 SrcB
+$SC +-8 +4
+$S +5 2 "UUT/PC_load"
+$S +4 2 "UUT/IR_en"
+$S +4 2 4 3 A_B
+$S +4 2 5 3 LUout
+$S +4 2 4 3 DMR
+$BUS S +4 1 32 4 1 Instructio
+$SC 1707-+124/4
+$S +5 0 CLK
+$S +4 0 Reset
+$BUS S +619 1 32 "UUT/Instruction"
+$SC 1707-+124/4
+$IN +5 0 "UUT/CLK"
+$IN +4 0 "UUT/Reset"
+$BUS S +620 1 32 4 1 PC_ou
+$SC 1-125/4
+$BUS S 2461 1 32 "UUT/Mem_addr"
+$SC 259-383/4
+$BUS S 2462 1 32 8 0 data
+$SC 388-512/4
+$BUS S 2463 1 32 "UUT/IR_out"
+$SC 517-641/4
+$BUS S 2464 1 32 "UUT/Reg_A"
+$SC 646-770/4
+$BUS S 2465 1 32 8 0 B
+$SC 775-899/4
+$BUS S 2466 1 32 "UUT/ALU_A"
+$SC 904-+124/4
+$BUS S 2467 1 32 8 0 B
+$SC 1033-+124/4
+$BUS S 2468 1 32 8 0 result
+$SC 1162-+124/4
+$BUS S 2469 1 32 8 1 ou
+$SC 1291-+124/4
+$BUS S 2470 1 32 "UUT/Mem_data_reg"
+$SC 1420-+124/4
+$BUS S +927 1 32 "UUT/Write_data"
+$SC 1549-+124/4
+$BUS S +799 3 4 "UUT/ALU_control"
+$SC 1678-+12/4
+$S +689 0 "UUT/PCWriteCond"
+$S 1695 0 11 0 ""
+$S +4 0 "UUT/MemRead"
+$S +4 0 7 0 Write
+$S +696 0 4 5 Reg
+$S +8 0 "UUT/Zero"
+$ENDTIME 100000
+$WAVES +0
+=0 T 0
+=1 D 0 1
+=2 D 0 2
+=3 D 0 4
+$VALUES
+V 4
+U
+0
+1
+0
+$END
+$WAVES 1149
+*0
+*2
+*3
+$VALUES
+V 3
+U
+0
+1
+$END
+$WAVES 1-125/4 259-383/4 +5-512/4 904-+124/4 +808 +4 +296-+12/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES 130-254/4
+*0
+*2
+=4 D 0 3
+*3
+=5 D 0 6
+=6 D 0 8
+$VALUES
+R 2 2 U 0
+V 2
+X
+U
+$END
+$WAVES 517-641/4 +5-770/4 +5-899/4 +392-+124/4 +5-+124/4 +159 +424 +4 +238 +4 +6-+8/4 +8-+8/4 +8 +4 +5 +4 +5
+*0
+*1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1033-+112/4 +8 +4 +392-+124/4 +34-+124/4 +425 +4
+*0
+*2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1162-+124/4
+*0
+*2
+*3
+*5
+$VALUES
+V 4
+U
+0
+X
+U
+$END
+$WAVES +392 +12
+*0
+*1
+*2
+$VALUES
+V 3
+U
+1
+0
+$END
+$WAVES +-8 +4
+*0
+*1
+*2
+*3
+$VALUES
+V 4
+U
+1
+0
+1
+$END
+$WAVES +9 +4 +692 +42
+*0
+*1
+*2
+$VALUES
+V 3
+U
+0
+1
+$END
+$WAVES 1857-+16/4 +69-+60/4 +263-+100/4
+*0
+*4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1878-+60/4 +125-+60/4 +29-+100/4
+*0
+*3
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 2007-+52/4
+*0
+=7 D 0 5
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +379 +4
+*0
+*2
+*4
+$VALUES
+V 3
+U
+0
+1
+$END
+$WAVES +4-+8/4
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$ENDWAVE
