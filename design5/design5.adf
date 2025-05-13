@@ -29,7 +29,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=assembly|structural|0 assembly_tb|behavioral|0 assembly_tb3|testbench_for_assembly|1 
+HierarchyInformation=assembly_tb|behavioral|0    
 ShowHide=ShowTopLevel
 Selected=
 

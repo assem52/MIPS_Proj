@@ -1,16 +1,13 @@
 .\src\shiftleft.vhd
 .\src\mux_4in_32bit.vhd
 .\src\sign_extend.vhd
-.\src\temp_register_ab.vhd
 .\src\shiftleft2.vhd
 .\src\register_file.vhd
 .\src\mux_2in_5bit.vhd
 .\src\memory_tb.vhd
-.\src\temp_register_dmr.vhd
 .\src\register_file_tb.vhd
 .\src\pc.vhd
 .\src\mux_2in_32bit.vhd
-.\src\temp_register_aluout.vhd
 .\src\mux_3in_32bit.vhd
 .\src\pc_tb.vhd
 .\src\memory.vhd
@@ -21,3 +18,6 @@
 .\src\Assembly.vhd
 .\src\assembly_TB.vhd
 .\src\controlunit_tb.vhd
+.\src\temp_register_dmr.vhd
+.\src\temp_register_aluout.vhd
+.\src\temp_register_ab.vhd
