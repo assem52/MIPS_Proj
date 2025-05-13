@@ -1,4 +1,4 @@
-1322
+1509
 ~E 1 "./src/mux_2in_32bit.vhd" 5 mux_2_32
 ~A 1 "./src/mux_2in_32bit.vhd" 15 behavior
 ~A 1 "./src/mux_2in_32bit.vhd" 15 bahavior
@@ -49,12 +49,13 @@
 ~A 1 "./src/register_file_tb.vhd" 10 test
 ~E 1 "./src/shiftleft2.vhd" 4 shiftleft2
 ~A 1 "./src/shiftleft2.vhd" 11 behavior
+~E 1 "./src/temp_register_dmr.vhd" 8 temp_register_dmr
+~A 1 "./src/temp_register_dmr.vhd" 15 behavioral
 ~E 1 "./src/temp_register_ab.vhd" 8 temp_register_ab
 ~A 1 "./src/temp_register_ab.vhd" 15 behavioral
 ~E 1 "./src/assembly_TB.vhd" 4 tb_assembly
 ~A 1 "./src/assembly_TB.vhd" 7 behavior
-~E 1 "./src/temp_register_dmr.vhd" 8 temp_register_dmr
-~A 1 "./src/temp_register_dmr.vhd" 15 behavioral
 ~E 1 "./src/temp_register_aluout.vhd" 8 temp_register_aluout
 ~A 1 "./src/temp_register_aluout.vhd" 15 behavioral
+~E 1 "./src/temp_register_dmr.vhd" 8 temp_register_mdr
 ~C 1 "./src/TestBench/assembly_TB3.vhd" 58 testbench_for_assembly

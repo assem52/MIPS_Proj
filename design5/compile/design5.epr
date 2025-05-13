@@ -1,2 +1,24 @@
-"C:\My_Designs\MIPS Project Design 5\design5\src\memory.vhd" design5 1 0 1680678912
+"C:\My_Designs\MIPS Project Design 5\design5\src\shiftleft.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\mux_4in_32bit.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\sign_extend.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\shiftleft2.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\register_file.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\mux_2in_5bit.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\memory_tb.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\register_file_tb.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\pc.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\mux_2in_32bit.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\mux_3in_32bit.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\pc_tb.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\memory.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\InstructionRegister.vhd" design5 1 0 42532920
+"C:\My_Designs\MIPS Project Design 5\design5\src\alu.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\alu_control_unit.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\controlunit.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\Assembly.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\assembly_TB.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\controlunit_tb.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_dmr.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_aluout.vhd" design5 1 0 0
+"C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_ab.vhd" design5 1 0 0
 . . 0 0 0

@@ -2781,3 +2781,130 @@ PAGE ""
   }
  }
 }
+V 000049 40 1666 1747175773313 temp_register_mdr
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1747175773"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,160)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,160)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,30,50,54)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (81,30,195,54)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,127,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,110,48,134)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="clk"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (220,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #NAME="dataout(31:0)"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #NAME="datain(31:0)"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="en"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}

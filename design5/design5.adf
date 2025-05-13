@@ -29,12 +29,11 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=assembly_tb|behavioral|0   
+HierarchyInformation=assembly_tb|behavioral|0     
 ShowHide=ShowTopLevel
 Selected=
 
 [Groups]
-TestBench=1
 
 [ORDER]
 Synchronize=0

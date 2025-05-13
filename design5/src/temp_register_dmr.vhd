@@ -5,12 +5,12 @@ use ieee.std_logic_1164.all;
 -- this register stores data and sends it from Ram Memory 
 -- it saves data temporarily
 
-entity temp_register_DMR is 
+entity temp_register_MDR is 
 	port( 
 	clk, en: in std_logic;
 	datain: in std_logic_vector(31 downto 0);	
 	dataout: out std_logic_vector(31 downto 0)	
-);end temp_register_DMR;
+);end temp_register_MDR;
 
 architecture behavioral of temp_register_DMR is 
 signal DMRsignal: std_logic_vector(31 downto 0):= (others => '0');

@@ -1,10 +1,167 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/temp_register_dmr.vhd
+# Compile...
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_dmr.vhd
+# Compile Entity "temp_register_MDR"
+# Error: COMP96_0111: temp_register_dmr.vhd : (13, 7): Labels do not match.
+# Compile Architecture "behavioral" of Entity "temp_register_DMR"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/temp_register_dmr.vhd
+# Compile...
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_dmr.vhd
+# Compile Entity "temp_register_MDR"
+# Compile Architecture "behavioral" of Entity "temp_register_DMR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\Assembly.vhd
+# Error: COMP96_0016: Assembly.vhd : (1, 1): Design unit declaration expected.
+# Compile Entity "Assembly"
+# Error: COMP96_0078: Assembly.vhd : (2, 5): Unknown identifier "ieee".
+# Error: COMP96_0055: Assembly.vhd : (2, 5): Cannot find referenced context element.
+# Error: COMP96_0078: Assembly.vhd : (3, 5): Unknown identifier "ieee".
+# Error: COMP96_0055: Assembly.vhd : (3, 5): Cannot find referenced context element.
+# Error: COMP96_0078: Assembly.vhd : (7, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: Assembly.vhd : (7, 16): Unknown type.
+# Error: COMP96_0078: Assembly.vhd : (8, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: Assembly.vhd : (8, 16): Unknown type.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\Assembly.vhd
+# Error: COMP96_0016: Assembly.vhd : (1, 1): Design unit declaration expected.
+# Compile Entity "Assembly"
+# Error: COMP96_0078: Assembly.vhd : (2, 5): Unknown identifier "ieee".
+# Error: COMP96_0055: Assembly.vhd : (2, 5): Cannot find referenced context element.
+# Error: COMP96_0078: Assembly.vhd : (3, 5): Unknown identifier "ieee".
+# Error: COMP96_0055: Assembly.vhd : (3, 5): Cannot find referenced context element.
+# Error: COMP96_0078: Assembly.vhd : (7, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: Assembly.vhd : (7, 16): Unknown type.
+# Error: COMP96_0078: Assembly.vhd : (8, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: Assembly.vhd : (8, 16): Unknown type.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/Assembly.vhd
+# Compile...
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/alu.vhd
+# Compile...
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\alu.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/alu.vhd
+# Compile...
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\alu.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/shiftleft.vhd $DSN/src/mux_4in_32bit.vhd $DSN/src/sign_extend.vhd $DSN/src/shiftleft2.vhd $DSN/src/register_file.vhd $DSN/src/mux_2in_5bit.vhd $DSN/src/memory_tb.vhd $DSN/src/register_file_tb.vhd $DSN/src/pc.vhd $DSN/src/mux_2in_32bit.vhd $DSN/src/mux_3in_32bit.vhd $DSN/src/pc_tb.vhd $DSN/src/memory.vhd $DSN/src/instructionregister.vhd $DSN/src/alu.vhd $DSN/src/alu_control_unit.vhd $DSN/src/controlunit.vhd $DSN/src/assembly.vhd $DSN/src/assembly_tb.vhd $DSN/src/controlunit_tb.vhd $DSN/src/temp_register_dmr.vhd $DSN/src/temp_register_aluout.vhd $DSN/src/temp_register_ab.vhd "$DSN/src/schematic diagram.bde"
+# Compile...
+# DRC: Checking file 'C:\My_Designs\MIPS Project Design 5\design5\src\Schematic Diagram.bde'.
+# DRC: Error: Schematic Diagram.bde - 1 error(s), 24 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\shiftleft.vhd
+# Compile Entity "shiftLeft"
+# Entity `shiftLeft' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "shiftLeft"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\mux_4in_32bit.vhd
+# Compile Entity "mux4"
+# Entity `mux4' has been skipped - no difference detected.
+# Compile Architecture "bahavior" of Entity "mux4"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\sign_extend.vhd
+# Compile Entity "sign_extend"
+# Entity `sign_extend' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "sign_extend"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\shiftleft2.vhd
+# Compile Entity "shiftLeft2"
+# Entity `shiftLeft2' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "shiftLeft2"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\register_file.vhd
+# Compile Entity "register_file"
+# Entity `register_file' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "register_file"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\mux_2in_5bit.vhd
+# Compile Entity "mux_2_5"
+# Entity `mux_2_5' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "mux_2_5"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\memory_tb.vhd
+# Compile Entity "memory_tb"
+# Entity `memory_tb' has been skipped - no difference detected.
+# Compile Architecture "test" of Entity "memory_tb"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\register_file_tb.vhd
+# Compile Entity "register_file_TB"
+# Entity `register_file_TB' has been skipped - no difference detected.
+# Compile Architecture "test" of Entity "register_file_TB"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\pc.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "PC"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\mux_2in_32bit.vhd
+# Compile Entity "mux_2_32"
+# Entity `mux_2_32' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "mux_2_32"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\mux_3in_32bit.vhd
+# Compile Entity "mux3"
+# Entity `mux3' has been skipped - no difference detected.
+# Compile Architecture "bahavior" of Entity "mux3"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\pc_tb.vhd
+# Compile Entity "PC_TB"
+# Entity `PC_TB' has been skipped - no difference detected.
+# Compile Architecture "test" of Entity "PC_TB"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\memory.vhd
+# Compile Entity "memory"
+# Entity `memory' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "memory"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\InstructionRegister.vhd
+# Compile Entity "InstructionRegister"
+# Entity `InstructionRegister' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionRegister"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\alu.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\alu_control_unit.vhd
+# Compile Entity "ALU_Control_Unit"
+# Entity `ALU_Control_Unit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ALU_Control_Unit"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\controlunit.vhd
+# Compile Entity "ControlUnit"
+# Entity `ControlUnit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ControlUnit"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\Assembly.vhd
+# Compile Entity "Assembly"
+# Entity `Assembly' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "Assembly"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\assembly_TB.vhd
+# Compile Entity "assembly_TB"
+# Entity `assembly_TB' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "assembly_TB"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\controlunit_tb.vhd
+# Compile Entity "ControlUnit_tb"
+# Entity `ControlUnit_tb' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ControlUnit_tb"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_dmr.vhd
+# Compile Entity "temp_register_MDR"
+# Entity `temp_register_MDR' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "temp_register_DMR"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_aluout.vhd
+# Compile Entity "temp_register_ALUout"
+# Entity `temp_register_ALUout' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "temp_register_ALUout"
+# File: C:\My_Designs\MIPS Project Design 5\design5\src\temp_register_ab.vhd
+# Compile Entity "temp_register_AB"
+# Entity `temp_register_AB' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "temp_register_AB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
 # Export of block diagram to graphics started...
-# Creating file: [C:\My_Designs\MIPS Project Design 5\design5\Schematic Diagram.png]
-# Export of block diagram to graphics finished.
-# Error: You do not have valid license to save diagrams containing more than 20 components.
-# Contact Aldec for ordering information - sales@aldec.com.
-# Export of block diagram to graphics started...
-# Creating file: [C:\My_Designs\MIPS Project Design 5\Schematic Diagram.png]
+# Creating file: [C:\My_Designs\MIPS Project Design 5\design5\src\Schematic Diagram.png]
 # Export of block diagram to graphics finished.
