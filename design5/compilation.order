@@ -21,3 +21,4 @@
 .\src\temp_register_dmr.vhd
 .\src\temp_register_aluout.vhd
 .\src\temp_register_ab.vhd
+.\src\schematic diagram.bde

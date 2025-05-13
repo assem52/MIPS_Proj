@@ -1,1 +1,1 @@
--w -s "C:\My_Designs\design5\library.cfg"  -j "C:\My_Designs\design5\design5\projlib.cfg"  -d "C:\My_Designs\design5\design5\compile\"  -work design5 -dbg -e 100 "C:\My_Designs\design5\design5\src\assembly_TB.vhd" 
+-w -s "C:\My_Designs\MIPS Project Design 5\library.cfg"  -j "C:\My_Designs\MIPS Project Design 5\design5\projlib.cfg"  -d "C:\My_Designs\MIPS Project Design 5\design5\compile\"  -work design5 -dbg -e 100

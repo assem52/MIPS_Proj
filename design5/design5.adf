@@ -29,7 +29,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=assembly_tb|behavioral|0    
+HierarchyInformation=assembly_tb|behavioral|0  
 ShowHide=ShowTopLevel
 Selected=
 
@@ -64,6 +64,7 @@ Synchronize=0
 /InstructionRegister.vhd=-1
 /assembly_TB.vhd=-1
 /simulation.awf=-1
+/Schematic Diagram.bde=-1
 
 [Files.Data]
 .\src\shiftleft.vhd=VHDL Source Code
@@ -90,4 +91,5 @@ Synchronize=0
 .\src\InstructionRegister.vhd=VHDL Source Code
 .\src\assembly_TB.vhd=VHDL Source Code
 .\src\simulation.awf=Waveform File
+.\src\Schematic Diagram.bde=Block Diagram
 

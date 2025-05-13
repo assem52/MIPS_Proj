@@ -1,5 +1,0 @@
-MESSAGE "File: C:\My_Designs\design5\design5\src\assembly_TB.vhd" 
-MESSAGE "Compile Entity "assembly_TB"" 
-MESSAGE "Entity `assembly_TB' has been skipped - no difference detected." 
-MESSAGE "Compile Architecture "Behavioral" of Entity "assembly_TB"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

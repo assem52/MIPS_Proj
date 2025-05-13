@@ -21,3 +21,4 @@ i<>.\src\memory.vhd
 i<>.\src\Assembly.vhd
 i<>.\src\InstructionRegister.vhd
 i<>.\src\assembly_TB.vhd
+i<>.\src\Schematic Diagram.bde

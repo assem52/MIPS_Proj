@@ -1,4 +1,4 @@
-1280
+1322
 ~E 1 "./src/mux_2in_32bit.vhd" 5 mux_2_32
 ~A 1 "./src/mux_2in_32bit.vhd" 15 behavior
 ~A 1 "./src/mux_2in_32bit.vhd" 15 bahavior
