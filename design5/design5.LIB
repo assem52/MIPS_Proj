@@ -1,4 +1,4 @@
-timestamp=1747171094877
+timestamp=1747173218541
 
 [alu]
 A/behavior=21|./src/alu.vhd|16|1*842639
@@ -168,6 +168,7 @@ A/behavior=21|./src/shiftleft.vhd|12|1*581513
 B/behavior=3*271574
 H/behavior=0*581268
 R=./src/shiftleft.vhd|5
+S/shiftleft=S/shiftLeft 40|0|2*36798
 V=0*1290
 
 [shiftleft2]
@@ -282,13 +283,13 @@ R=./src/TestBench/assembly_TB3.vhd|58
 ./src/temp_register_aluout.vhd~temp_register_ALUout=0*56753*57075
 ./src/temp_register_dmr.vhd~behavioraltemp_register_DMR=0*803376*803711
 ./src/temp_register_dmr.vhd~temp_register_DMR=0*33365*33675
-ModifyID=1322
+ModifyID=1324
 Version=73
 
 [~MFT]
 0=1312|0design5.mgf|845741|694418
 1=374|1design5.mgf|851641|754636
-2=18|2design5.mgf|35080|0
+2=19|2design5.mgf|36798|0
 3=349|3design5.mgf|386417|333587
 
 [~U]
@@ -313,7 +314,7 @@ pc=PC 11|0*46194|0*46434|0x3
 pc_tb=PC_TB 11|0*88393|0*88449
 register_file=11|0*20209|0*20586|0x3
 register_file_tb=register_file_TB 11|0*44274|0*44363
-shiftleft=shiftLeft 11|0*687|0*860
+shiftleft=shiftLeft 11|0*687|0*860|0x3
 shiftleft2=shiftLeft2 11|0*15951|0*16127|0x3
 sign_extend=11|0*9472|0*9657|0x3
 tb_assembly=11|0*294214|0*294288
